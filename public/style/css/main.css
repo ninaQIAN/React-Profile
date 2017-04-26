@@ -1,0 +1,39 @@
+/* {
+    border: 1px solid red !important;
+}
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+.sectionTitle {
+    font-size: 20px;
+}
+
+.pageTitle {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Flavors', cursive;
+    color: #4db551;
+}
+
+.personal {
+    font-size: 20px;
+    color: #e4ae9a;
+}
+
+.myFavoirteAnimal.title {
+    font-size: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.myFavoirteAnimal.content {
+    font-size: 15px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
