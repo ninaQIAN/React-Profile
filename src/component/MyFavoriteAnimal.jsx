@@ -17,10 +17,10 @@ var MyFavoriteAnimal = React.createClass({
 		if(this.state.showArticle) {
 			return(
 			<div className="col-md-10">
-				<h4 class="myFavoirteAnimal title">{this.props.title}</h4>
-  				 <div class="myFavoirteAnimal content">
+				<h4 className="myFavoirteAnimal title">{this.props.title}</h4>
+  				 <div className="myFavoirteAnimal content">
   					<p>{this.props.content}</p>
-  					<img class="img-responsive" src="http://placekitten.com/600/500" alt="cat"/>
+  					<img className="img-responsive" src="http://placekitten.com/600/500" alt="cat"/>
 			    </div>
 			</div>
 			);
@@ -32,7 +32,7 @@ var MyFavoriteAnimal = React.createClass({
 		var btnContent = this.state.showArticle?"Close":"Show";
 		return (
 			<div className="col-md-12">
-				<div class="row">
+				<div className="row">
 		        	<button type="button" onClick={this._onClickTap}>{btnContent}</button>
 		        </div>
 	        	{popUpModel}

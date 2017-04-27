@@ -29,7 +29,7 @@ var info = {
 				}
 			],
 			"myfavoriteanimal" : {
-				"title":"My Favoirte Animal", 
+				"title":"My Favoirte Animal",
 				"content" : "My favoirte animal is cat. Cats are smart and sensitive. They feel the world around them and have their own big world inside their hearts. They are completely immersed in their own thoughts without caring whatever is going on outside. That's why sometimes you'll see a cat sitting silently on the mat, next to a window or on a couch, when suddenly jumps up and starts looking around. And the cat is also very cute. I hope some day in the futuer, I'll be able to raise a lovely kitten as a pet, care him and play with him like he's my little mate. I want to see him grow healthly and live happily with my family."
 			}
 		};
@@ -42,7 +42,7 @@ var Homepage = React.createClass({
 
 	render: function() {
 		return (
-			<div className="container" > 
+			<div className="container" >
 			    <div className="Row">
 			    	<div className="col-md-6">
                 		<div className="pageTitle">My Portfolio</div>
@@ -50,7 +50,7 @@ var Homepage = React.createClass({
             		<Title name={info.name} email={info.email} gitHub={info.gitHub}/>
             	</div>
             	<div className="col-md-12">
-	            	<div class="row sectionTitle">Education</div>
+	            	<div className="row sectionTitle">Education</div>
 				    <Education education={info.education}/>
 			    </div>
 			    <MyFavoriteAnimal title={info.myfavoriteanimal.title} content={info.myfavoriteanimal.content}/>
